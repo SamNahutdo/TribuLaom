@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>TRIBU LAOM</title>
+    </head>
+    <body>
+        <!-- Background music only -->
+        <audio id="bg-music" src="assets/video/bgmusic.mp4" autoplay loop hidden></audio>
+
+
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">LAOM</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Our Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Albums</a>
+                        </li>
+                    </ul>
+                    <div class="nav__dark">
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="home" id="home">
+                <img src="assets/images/bg.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Welcome to..</span>
+                        <h1 class="home__data-title">TRIBU <br><strong> LAOM</strong></h1>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">   
+                        <h2 class="section__title about__title">About<br> TRIBU LAOM</h2>
+                        <p class="about__description"> Laom is a hwfwiebbwibxibdibiewrbbfibciwibigciwgi g9uicxwifuiwbcwhbx  wu c9ubw
+                        </p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/images/img1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/images/img2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Know our <br> Team</h2>
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--1-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/yana.jpg" alt="yana" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Yana</h2>
+                                <span class="discover__description">Pres </span>
+                            </div>
+                        </div>
+
+                        <!--2-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/sam.jpg" alt="sam" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sam</h2>
+                                <span class="discover__description">Vice Pres</span>
+                            </div>
+                        </div>
+
+                        <!--3-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/jasmin.jpg" alt="jasmin" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Jasmin</h2>
+                                <span class="discover__description">Secretary</span>
+                            </div>
+                        </div>
+
+                        <!--4-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/louis.jpg" alt="louis" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Loius</h2>
+                                <span class="discover__description">Egg protector</span>
+                            </div>
+                        </div>
+
+                        <!--5-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/Liza.jpg" alt="liza" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Liza</h2>
+                                <span class="discover__description">200IQ</span>
+                            </div>
+                        </div>
+
+                        <!--6-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/frances.jpg" alt="frances" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Frances</h2>
+                                <span class="discover__description">...</span>
+                            </div>
+                        </div>
+
+                        <!--7-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/unique.jpg" alt="harmonique" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Harmonique</h2>
+                                <span class="discover__description">...</span>
+                            </div>
+                        </div>
+
+                        <!--8-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/lucio.jpg" alt="lia" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Lia</h2>
+                                <span class="discover__description">...</span>
+                            </div>
+                        </div>
+
+                        <!--9-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/janrey.jpg" alt="janrey" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Janrey</h2>
+                                <span class="discover__description">...</span>
+                            </div>
+                        </div>
+
+                        <!--10-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/sophia.jpg" alt="sophia" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sophia</h2>
+                                <span class="discover__description">...</span>
+                            </div>
+                        </div>
+
+                        <!--11-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/images/amram.jpg" alt="amram" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Amram</h2>
+                                <span class="discover__description">...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience section">
+                <h2 class="section__title">Our achievements</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">3rd</h2>
+                            <span class="experience__description">Runner <br>up</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">1st</h2>
+                            <span class="experience__description">Best girl <br>i forgot</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/images/us.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/images/cert.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video section">
+                <h2 class="section__title">Video</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Wakoy ika sulti pero naka video ko nga 3rd mi HAHAHA
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/hahaha.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="place section" id="place">
+                <h2 class="section__title">Our Photos</h2>
+
+                <div class="place__container container grid">
+                    <div class="place__card">
+                        <img src="assets/images/1.jpg" alt="" class="place__img">
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/images/2.jpg" alt="" class="place__img">
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/images/3.jpg" alt="" class="place__img">
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/images/4.jpg" alt="" class="place__img">
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/images/5.jpg" alt="" class="place__img">
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/images/6.jpg" alt="" class="place__img">
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/images/7.jpg" alt="" class="place__img">
+                    </div>
+
+
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">From Tribu Laom</h3>
+                        <p class="footer__description">Thank you for visiting our website.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Home</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#about" class="footer__link">About</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#discover" class="footer__link">Our teams</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Department</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">COECS</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">CHS</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">CBA</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Organization</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">CSG</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">CSO</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">CSA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var bgMusic = document.getElementById('bg-music');
+          function playMusic() {
+            if (bgMusic.paused) {
+              bgMusic.play();
+            }
+            document.removeEventListener('touchstart', playMusic);
+            document.removeEventListener('click', playMusic);
+          }
+          document.addEventListener('touchstart', playMusic, { once: true });
+          document.addEventListener('click', playMusic, { once: true });
+        });
+        </script>
+    </body>
+</html>
+
